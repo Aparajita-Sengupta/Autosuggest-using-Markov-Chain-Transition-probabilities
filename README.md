@@ -31,5 +31,7 @@ Some examples of potential use cases: (i) Text Editors: Markov chain models can 
 DRAWBACKS
 
 Drawbacks that would necessitate more complex models: Markov chains assume the Markov property, which states that the probability of transitioning to a future state depends only on the current state and not on the past states. This assumption may not hold in all cases, especially when long-term dependencies or contextual information from earlier states are important. For eg: Time series analysis (current value is often influenced by past observations), recommendation system (recommendation for a user may rely on their past behavior, browsing history, or preferences), speech recognition (accurately transcribing spoken words or phrases requires considering the acoustic and contextual information from earlier states).
+
+
 <img width="175" alt="Screenshot 2023-10-01 at 12 05 14 PM" src="https://github.com/Aparajita-Sengupta/Autosuggest-using-Markov-Chain-Transition-probabilities/assets/110929917/ca89fea0-e089-43cb-817f-7b37c69bd4ae">
 
